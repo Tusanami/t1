@@ -4,21 +4,22 @@
       <el-aside class="aside">
         <div class="head">
           <div>
-            <img src="//s.weituibao.com/1582958061265/mlogo.png" alt="logo">
-            <span>vue3 admin</span>
+            <img src="./assets/img/logo.svg" alt="logo">
+            <span>Echarts</span>
           </div>
         </div>
         <div class="line" />
         <el-menu
           background-color="#222832"
           text-color="#fff"
+          text-align="center"
           :router="true"
            :default-openeds="state.defaultOpen"
            :default-active='state.currentPath'
         >
           <el-sub-menu index="1">
             <template #title>
-              <span>Dashboard</span>
+              <span>基础图</span>
             </template>
             <el-menu-item-group>
               <el-menu-item index="/"><el-icon><Odometer /></el-icon>首页</el-menu-item>
@@ -27,7 +28,7 @@
           </el-sub-menu>
            <el-sub-menu index="2">
             <template #title>
-              <span>首页配置</span>
+              <span>特殊图</span>
             </template>
             <el-menu-item-group>
               <el-menu-item index="/swiper"><el-icon><Picture /></el-icon>轮播图配置</el-menu-item>

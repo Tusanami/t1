@@ -107,6 +107,7 @@ const back = () => {
     background: url('https://s.yezgea02.com/lingling-h5/static/account-banner-bg.png') 50% 50% no-repeat!important;
     background-size: cover!important;
     border-radius: 0!important;
+    background-color: black;
   }
    .popper-user-box .nickname {
     position: relative;
